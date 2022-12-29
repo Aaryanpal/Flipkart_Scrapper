@@ -104,12 +104,9 @@ For Writing The CSV REsult
         CSV.open('result.csv','wb') do |csv|
             csv << ["S.no","Phone "]
            phones.each_with_index do |row,index|
-            csv << [index]
-            csv << [row]
-            
+            csv << [index,row]
         end
     end
-    byebug
         puts "Total Product: #{phones.count}"
     end
     # def find_indexes
