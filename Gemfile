@@ -7,4 +7,7 @@ source "https://rubygems.org"
 gem "byebug", "~> 11.1"
 
 gem "open-uri", "~> 0.3.0"
-gem 'nokogiri', '~> 1.13', '>= 1.13.10'
+
+gem "sidekiq", "~> 7.0"
+
+gem "sidekiq-cron", "~> 1.9"
